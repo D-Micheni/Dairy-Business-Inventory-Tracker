@@ -40,3 +40,17 @@
       text-align: left;
     }
   }
+  .background {
+    background-size: cover;
+    background-size: contain;
+    background-size: inline;
+    background-size: 6px;
+    background-size: 40%;
+    background-size: auto;
+    background-image:url("https://media.gettyimages.com/photos/panoramic-of-dairy-cows-picture-id157292668");
+    background-position: center;
+    background-size: cover;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: absolute;
+  }
