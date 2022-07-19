@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    overflow: hidden;
+    background-color: #000;
+    padding: 20px 10px;
+  
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 450px;
+  
+  }
+  
+  .header a.active {
+    background-color: orange;
+    color: white;
+  }
+  
+  .header-left {
+      text-align: center;
+    }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
